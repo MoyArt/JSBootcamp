@@ -14,9 +14,17 @@ console.log(isFreezing);
 
 /* CHALLENGE: Calculate if its a child or a senior to see if its elegible to a discount */
 
-let age = 38;
+let age = 75;
 let isChild = age <= 7;
 let isSenior = age >= 65;
+
+if(isChild){
+    console.log('You have ' + age + ' years old, you have a child discount!!')
+}
+
+if(isSenior){
+    console.log('You have ' + age + ' years old, you have a senior discount!!')
+}
 
 console.log(isChild);
 console.log(isSenior);
