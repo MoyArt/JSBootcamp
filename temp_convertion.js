@@ -8,3 +8,5 @@ let fahrenheit = 32;
 let celsius = (fahrenheit -32) / 1.8;
 console.log(celsius);
 /* Calculate Kelvin value and store in Kelvin variable */
+let kelvin = (fahrenheit + 459.67) * 5/9;
+console.log(kelvin)
