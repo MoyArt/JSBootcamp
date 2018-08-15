@@ -2,4 +2,9 @@
 from farenheit to celcius to kelvin using strings, 
 variables and numbers */
 
-let farenheit = 32
+let fahrenheit = 32;
+
+/* Calculate celsius value and store in celsius variable */
+let celsius = (fahrenheit -32) / 1.8;
+console.log(celsius);
+/* Calculate Kelvin value and store in Kelvin variable */
